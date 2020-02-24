@@ -27,7 +27,7 @@ jobs:
       env:
         CI: true
 
-  print-complete status:
+  print-complete-status:
     
     runs-on: ubuntu-latest
     steps:
