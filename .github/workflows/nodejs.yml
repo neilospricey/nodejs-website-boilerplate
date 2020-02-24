@@ -31,6 +31,6 @@ jobs:
     
     runs-on: ubuntu-latest
     steps:
-      - name: print status
-        shell: sh
-        run: echo ${{github.action}} " was a " ${{job.status}}
+    - name: print status
+      shell: sh
+      run: echo ${{github.action}} " was a " ${{job.status}}
