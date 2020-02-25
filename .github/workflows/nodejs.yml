@@ -50,9 +50,7 @@ jobs:
       with:
         tag_name: ${{ github.ref }}
         release_name: Release ${{ github.ref }}
-        body: |
-          Changes in this Release
-          - x Change(s)
+        body: Changes in this Release
         draft: false
         prerelease: false        
 
