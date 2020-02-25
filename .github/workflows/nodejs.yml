@@ -41,6 +41,8 @@ jobs:
 
   print-complete-status:
     
+    runs-on: ubuntu-latest
+
     steps:
     - name: Dump GitHub context
       env:
